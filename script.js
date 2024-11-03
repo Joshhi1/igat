@@ -23,7 +23,7 @@ function generateMessage() {
         generateBtn.textContent = "Read Last Message";
     } else if (currentIndex === messages.length - 1) {
         generateBtn.textContent = "Read All Messages Again";
-    } else if (currentIndex === 0) {
+    } else if (currentIndex === -1) {
         generateBtn.textContent = "Read Messages";
     } else {
         generateBtn.textContent = "Read Next Message";
